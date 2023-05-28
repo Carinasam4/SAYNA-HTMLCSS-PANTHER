@@ -1,0 +1,625 @@
+
+@font-face
+{
+    font-family: 'BEYNO';
+    src: url(../ASSETS/fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'PANTHERA';
+    src: url(../ASSETS/fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'WAKANDA';
+    src: url(../ASSETS/fonts/WakandaForever-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../ASSETS/fonts/Cantarell-Regular.ttf);
+}
+
+/* Les couleurs */
+:root
+{
+    --white-color: #FFFFFF;
+    --gradiant-pink: #F2CFF2;
+    --grey-color: #9E91B7;
+    --pink-color: #DF99F2;
+    --purple-color: #3D2DA6;
+    --blue-color: #07338C;
+    --dark-blue: #021740;
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url('../ASSETS/Illustrations/All/arrière_plan.png');
+    color: var(--white-color);
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64,
+                    0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Design pour les ménus*/
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul
+{
+    display: flex;
+    text-decoration: none;
+}
+
+li
+{
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav a
+{
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: 'BEYNO';
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-family: 'BEYNO';
+    text-decoration: underline;
+}
+
+nav .now {
+    color: #9E91B7;
+    text-decoration: underline;
+}
+
+nav .W {
+    color: #FFFFFF;
+}
+nav .E {
+    color: #FFFFFF;
+}
+
+/* les réseaux sociaux */
+.bar1
+{
+    position: fixed;
+    border-left: 3px solid var(--grey-color);
+    left: 30px;
+    height: 120%;
+}
+.bar2
+{
+    position: fixed;
+    border-left: 3px solid var(--grey-color);
+    left: 50px;
+    height: 100%;
+    
+}
+.icon
+{
+    margin-top:640px;
+    display: grid;
+    margin-right: 30px;
+}
+.ensemble
+{
+    display: grid;
+}
+
+
+
+/* Section Black panther */
+.black-panther
+{
+    display: flex;
+    margin-top: 40px;
+}
+.description
+{
+    width: 30%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.description h1
+{
+    font-family: 'Panthera';
+    color: #9E91B7;
+    font-size: 2.5rem;
+}
+.description h2
+{
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 1.5rem;
+}
+
+a{
+    color: #FFFFFF;
+    font-family: 'Cantarell';
+    font-size: 0.9rem;
+}
+
+.panther1{
+    width: 80px;
+}
+.panther1 img{
+    width: 900px;
+}
+.suite
+{
+    border: none;
+    background-color: transparent;
+    color: var(--white-color);
+}
+.suite:hover
+{
+    text-decoration: underline;
+}
+
+
+
+/* design participant */
+.Assemblage{
+    display: flex;
+    flex-direction: row;
+    padding-left: 7%;
+}
+.personnages
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #021740;
+    padding-left: 3%;
+    width: 40%;
+    transform: scale(1.0);
+}
+
+.personnages a{
+    padding-top:15%;
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.panther2{
+    width: 300px;
+}
+.panther2 img{
+    width: 250px;
+    height: 350px;
+}
+.panther3{
+    width: 60%;
+}
+.panther3 img{
+    width: 225px;
+    height: 350px;
+}
+
+.text{
+    padding-top: 5%;
+    padding-left: 2%;
+    width: 60%;
+}
+.text h3{
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 1.2rem;
+    padding-bottom: 3%;
+}
+
+.text p {
+    padding-top: 5%;
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 0.8rem;
+    text-align: justify;
+}
+.text a {
+    padding-top: 5%;
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 1.0rem;
+    text-align: justify;
+}
+.panther4{
+    display: flex;
+    width: 12%;
+    padding-left: 1%;
+    background-color: #021740;
+}
+
+
+
+
+
+/* Design naissance prince */
+.naissance-prince
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 13%;
+}
+.textes{
+    width: 45%;
+}
+
+.textes h3{
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 1rem;
+    padding-top: 5%;
+}
+.textes p{
+    padding-top: 5%;
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 0.7rem;
+    text-align: justify;
+}
+.renseignement
+{
+    width: 55%;
+    text-align: center;
+}
+.panther5{
+    padding: 0% 25%;
+}
+.panther5 img{
+    width: 100%;
+}
+.rond{
+    padding: 20% 25% 0% 25%;
+}
+.rond img{
+    width: 100%;
+}
+
+.identite
+{
+    background-color: var(--white-color);
+    border-radius: 20px;
+    color: var(--dark-blue);
+    padding-top: 250px;
+    padding-bottom: 50px;
+    margin: -37% 20% 0% 20%;
+    text-align: center;
+}
+.btn
+{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--white-color);
+}
+input[type="radio"] 
+{
+    opacity: 0;
+}
+.btn label
+{
+    cursor: pointer;
+    border-radius: 5px ;
+    background-color: var(--purple-color);
+    padding: 10px;
+    font-size: 12px;
+}
+.Tcl
+{
+    text-align: center;
+    font-family: 'Cantarell';
+}
+.carte
+{
+    padding-left: 70px;
+}
+
+.carte p{
+    text-align: center;
+}
+.rond
+{
+    margin-top: 80px;
+}
+
+
+
+/* Design contact */
+#contact
+{
+    background-image: url('../ASSETS/Illustrations/Accueil/Pantherhome7.png');
+    height: 900px;
+    padding: 10px;
+    font-family: 'Cantarell';
+}
+
+.aide-contact
+{
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.897), rgba(242, 206, 242, 0.2));
+    color: var(--dark-blue);
+    border-radius: 150px;
+    text-align: center;
+    margin-top: 20%;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.aide-contact h1{
+    font-family: 'Cantarell';
+    color: #021740;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.petit
+{
+    border-radius: 30px;
+    border-color: var(--purple-color);
+    border: 1px solid;
+    height: 56px;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+
+}
+.message
+{
+    border-radius: 30px;
+    border-color: var(--purple-color);
+    border: 1px solid;
+    height: 150px;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.envoie
+{
+    border-radius: 30px;
+    border-color: var(--purple-color);
+    border: none;
+    height: 70px;
+    width: 174px;
+    margin-top: 30px;
+    background-color: var(--white-color);
+    color: var(--purple-color);
+}
+.envoie:hover
+{
+    box-shadow: 0 0 20px #021740;
+}
+
+/* Design footer */
+footer
+{
+    background-image: url(../ASSETS/Illustrations/All/back_footer.png);
+    margin-top: 140px;
+    Background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
+}
+.disposition
+{
+    display: flex;
+    justify-content: space-between;
+}
+.img1
+{
+    height: 60%;
+    background-image: url(../ASSETS/Illustrations/All/footer2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logofooter
+{
+    margin-top: 15%;
+}
+.ulfooter
+{
+    display: grid;
+}
+.pages
+{
+    margin-top: 15%;
+    width: 50%;
+}
+.retrouve
+{
+    margin-top: 15%;
+}
+.social
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.textesfooter
+{
+    display: flex;
+}
+.hfooter
+{
+    color: var(--white-color);
+    font-family: 'Cantarell';
+    font-size: 22px;
+    letter-spacing: 28%;
+}
+
+/* Les polices */
+.titre
+{
+    font-family: 'PANTHERA';
+    font-size: 50px;
+    color: var(--grey-color);}
+h2
+{
+    font-family: 'BEYNO';
+    font-size: 32px;
+    color: var(--grey-color);
+}
+p
+{
+    font-family: 'Cantarell';
+    font-size: 12px;
+    margin-top: 10px;
+}
+h3
+{
+    font-family: 'BEYNO';
+    font-size: 20px;
+    color: var(--grey-color);
+}
+
+
+/* CSS Wakanda  */
+.wakanda
+{
+    background-image: url(../ASSETS/Illustrations/Wakanda/Pantherwakanda1.png);
+    height: 900px;
+    background-repeat: no-repeat;
+        background-position: top center;
+            background-size: cover;
+}
+.parties
+{
+    display: flex;
+    background-image: url(../ASSETS/Illustrations/Wakanda/Pantherwakanda2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-top: 20px;
+    text-align: justify;
+}
+.forever
+{
+    margin-top: 300px;
+    float: left;
+    padding-right: 450px;
+}
+.titre1
+{
+    font-family: 'BEYNO';
+    font-size: 40px;
+    color: var(--grey-color);
+}
+.titre2
+{
+    font-family: 'WAKANDA';
+    margin-top: 10px;
+    font-size: 28px;
+}
+.liens-vidéo
+{
+    background-color: var(--purple-color);
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* CSS Enigme */
+img.dora
+{
+    height: 500px;
+   
+}
+.dorahead
+{
+    display: flex;
+    justify-content: space-between;
+}
+.doraright
+{
+    display: grid;
+    margin-top: 50px;
+}
+.doradescription
+{
+  background-image: url(../ASSETS/Illustrations/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.doraright h1
+{
+    font-family: 'BEYNO';
+    font-size: 32px;
+    color: var(--pink-color);
+}
+.doradescription p
+{
+    padding: 90px;
+}
+.citation p
+{
+    font-family: 'WAKANDA';
+    font-size: 40px;
+    margin-top: 50px;
+    color: var(--pink-color);
+    
+}
+.dora-citation p span
+{
+    font-family: 'WAKANDA';
+
+}
+.dora-citation
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.reponse
+{
+    border-radius: 20px;
+    border: 2px solid var(--pink-color);
+    padding: 10px;
+    margin: 20px;
+}
+.valide
+{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+    font-size: 10px;
+    background-color: var(--gradiant-pink);
+}
+.valide:hover
+{
+    box-shadow: 0 0 20px #F2CEF2;
+}
+
